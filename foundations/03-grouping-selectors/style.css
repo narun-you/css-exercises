@@ -1,0 +1,19 @@
+.onebutton,
+.anotherbutton {
+    font-family: Helvetica, "Times New Roman", sans-serif;
+    font-size: 28px;
+
+}
+
+div {
+    text-align: center;
+}
+
+.onebutton {
+    background-color: black;
+    color: white;
+}
+
+.anotherbutton {
+    background-color: yellow;
+}

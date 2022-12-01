@@ -1,0 +1,19 @@
+.class {
+    background-color: red;
+    color: black;
+
+}
+
+.class.cooler {
+    font-size: 16pt;
+}
+
+#anotherid {
+    background-color: green;
+    font-weight: bold;
+}
+
+#oneid {
+    font-size: 32pt;
+    color: blue;
+}
