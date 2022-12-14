@@ -5,6 +5,9 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  color: azure;
 }
 
 img {
@@ -16,6 +19,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px 16px;
 }
 
 input {
@@ -24,4 +28,54 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .left-link,
+.header .right-link {
+  display: flex;
+  align-items: center;
+  color: black;
+
+}
+
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background: gray;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+
+a {
+  /* this removes the line under our links */
+  text-decoration: none;
+  /* color: rebeccapurple; */
+  color: #666;
+}
+
+ul {
+  list-style-type: none;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
